@@ -56,7 +56,7 @@ RUN npm install pm2@latest -g
 # Sets the user to "nextjs", which is a non-root user for better security.
 USER nextjs
 
-EXPOSE 3000
-ENV PORT 3000
+EXPOSE 8080
+ENV PORT 8080
 
 CMD ["pm2-runtime", "server.js"]
