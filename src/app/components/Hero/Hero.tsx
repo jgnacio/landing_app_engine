@@ -13,7 +13,7 @@ export function Hero() {
                 />
                 <div>
                     <h1 className="text-5xl font-bold">Next.js Application on <span className="font-semibold bg-gradient-to-r bg-clip-text  text-transparent from-indigo-700 via-red-300 to-indigo-500 animate-text">Google App Engine</span> !</h1>
-                    <p className="py-6 w-3/4">The web application is deployed on a Google Cloud App Engine instance, utilizing a Docker container that hosts a Next.js application alongside an NGINX reverse proxy.</p>
+                    <p className="py-6 w-3/4">The web application is deployed on a Google Cloud App Engine instance, utilizing a Docker container that hosts a Next.js application.</p>
                     <div className="card w-96 bg-base-100 shadow-xl">
                         <div className="card-body">
                             <h2 className="card-title">Check out my Github repository</h2>
